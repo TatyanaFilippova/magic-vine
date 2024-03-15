@@ -1,22 +1,19 @@
 import React from "react";
 import css from "./Header.module.css"
+import logo from "../../assets/logo.png"
 
-interface HeaderProps{
-    title?: string;
-    text?: string;
-}
-
-
-function Header(
-    { title, text }: HeaderProps
-
-){
+function Header(){
     return (
         <div className={css.container}>
-        <div className={css.img}></div>
-        <div className={css.text}>{text}</div>
-        <div className={css.number}></div>
-    </div>)
+            <img src={logo.src} className={css.img}></img>
+            <div className={css.containerText}>
+                <div className={css.text}>Товары</div>
+                <div className={css.text2}>Как заказать</div>
+                <div className={css.text3}>О нас</div>
+            </div>
+
+            <div className={css.number}>8 800 55 35 35</div>
+        </div>)
 }
 
 export default Header

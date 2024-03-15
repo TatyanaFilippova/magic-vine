@@ -7,5 +7,5 @@ export default {
 }
 
 export const Default={
-    render:()=><Header title={"Заголовок"} text={"Описание"}></Header>
+    render:()=><Header></Header>
 }
