@@ -3,6 +3,8 @@
     background-color: #E8F6E9;
     padding: 16px 32px 16px 32px;
     border: none;
+    width: 300px;
+    font-size: 24px;
 }
 
 .blue{
@@ -10,4 +12,6 @@
     background-color: #E4F2FD;
     padding: 16px 32px 16px 32px;
     border: none;
+    width: 300px;
+    font-size: 24px;
 }

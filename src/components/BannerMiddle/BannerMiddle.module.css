@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    width: 100%;
+
+    align-items: center;
+    box-sizing: border-box;
+
+
+}
+
+.img{
+    height:  258px;
+    padding: 80px 90px 0 90px;
+
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.description{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 80px 48px 8px 0;
+}
+
+.text1{
+    font-size: 24px;
+    padding-top: 8px;
+
+}
+.text2{
+    font-size: 24px;
+    padding: 8px 0 40px 0;
+
+}
+
