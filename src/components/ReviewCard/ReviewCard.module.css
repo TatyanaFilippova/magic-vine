@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    width:  346px
+}
+
+.text1{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px 57px 10px 57px;
+}
+
+.text2{
+    font-size: 16px;
+    padding: 0 10px 10px 10px;
+}
