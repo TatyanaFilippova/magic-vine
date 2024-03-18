@@ -1,5 +1,6 @@
 import type { Preview } from "@storybook/react";
 import localFont from "next/font/local";
+import "../src/app/globals.css"
 
 const inter = localFont({ src: [
         {
