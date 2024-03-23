@@ -1,8 +1,19 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = localFont({ src: [
+    {
+      path: '../../public/fonts/SegoePrintRegular.woff',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../../public/fonts/SegoePrintBold.ttf',
+      weight: 'bold',
+      style: 'normal',
+    },
+  ] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
