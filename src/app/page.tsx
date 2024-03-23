@@ -1,5 +1,5 @@
 import Image from "next/image";
-import css from "./page.module.css";
+import css from "./page.module.scss";
 import Header from "@/components/Header/Header";
 import BannerMiddle from "@/components/BannerMiddle/BannerMiddle";
 import ProductCard from "@/components/ProductCard/ProductCard";

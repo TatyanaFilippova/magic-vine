@@ -1,5 +1,5 @@
 import React from "react";
-import css from "./BannerMiddle.module.css"
+import css from "./BannerMiddle.module.scss"
 import stock from "./../../assets//stock.png"
 
 import Button from "..//Button/Button"

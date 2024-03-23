@@ -1,3 +1,4 @@
+@import "src/styles/mixins";
 .productCardWrapper{
     padding-top: 100px;
     padding-left: 100px;
@@ -6,6 +7,10 @@
     justify-content: space-between;
     padding-right: 100px;
     flex-wrap: wrap;
+    @include mobile() {
+        padding: 0;
+
+    }
 
 }
 
@@ -21,4 +26,9 @@
     padding-right: 100px;
     flex-wrap: wrap;
     padding-left: 100px;
+    @include mobile() {
+        padding: 0;
+
+
+    }
 }

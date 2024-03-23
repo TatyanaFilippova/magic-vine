@@ -1,3 +1,5 @@
+@import "src/styles/mixins";
+
 .container{
     display: flex;
     width: 100%;
@@ -6,14 +8,25 @@
     padding: 10px 80px 10px 80px;
     box-sizing: border-box;
     align-items: center;
+    @include mobile() {
+        padding: 0;
+
+    }
+
 }
 
 .number{
     font-weight: 700;
 }
 .containerText{
+
     display: flex;
     align-items: center;
+
+    @include mobile() {
+        display: none;
+
+    }
 
 }
 .text{

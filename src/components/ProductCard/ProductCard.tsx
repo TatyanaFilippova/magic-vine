@@ -1,5 +1,5 @@
 import React from "react";
-import css from "./ProductCard.module.css"
+import css from "./ProductCard.module.scss"
 
 
 interface ProductCardProps{
