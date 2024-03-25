@@ -4,6 +4,7 @@ import Header from "@/components/Header/Header";
 import BannerMiddle from "@/components/BannerMiddle/BannerMiddle";
 import ProductCard from "@/components/ProductCard/ProductCard";
 import ReviewCard from "@/components/ReviewCard/ReviewCard";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
     return <div>
@@ -25,6 +26,7 @@ export default function Home() {
            </div>
 
         </div>
+        <Footer number={"8 800 555 35 35"} address={"г. Сыктывкар, республика Коми"}></Footer>
     </div>;
 
 }
