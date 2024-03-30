@@ -5,10 +5,12 @@ import BannerMiddle from "@/components/BannerMiddle/BannerMiddle";
 import ProductCard from "@/components/ProductCard/ProductCard";
 import ReviewCard from "@/components/ReviewCard/ReviewCard";
 import Footer from "@/components/Footer/Footer";
+import Banner from "@/components/Banner/Banner";
 
 export default function Home() {
     return <div>
         <Header></Header>
+        <Banner></Banner>
         <div className={css.productCardWrapper}>
             <ProductCard title={"Товар 1"} text={"Описание товара"}></ProductCard>
             <ProductCard title={"Товар 1"} text={"Описание товара"}></ProductCard>
